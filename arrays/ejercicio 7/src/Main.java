@@ -25,11 +25,12 @@ public class Main {
             System.out.println("Qué quieres hacer?");
             numero = sc.nextInt();
 
-            switch (numero) {
+            switch (numero) { //ifelse para validar que se haya rellenado
                 case 1 -> rellenarMatriz();
                 case 2 -> sumarFila();
                 case 3 -> sumarColumna();
                 case 4 -> sumaDiagonal();
+                case 5 -> sumaDiagonalInversa();
                 case 6 -> mediaValores();
                 case 7 -> System.out.println("Finalizando el programa...");
                 default -> System.out.println("No has escogido un número válido");
@@ -39,9 +40,9 @@ public class Main {
     }
 
     public static void rellenarMatriz() {
-        System.out.println("Rellena los números de la matriz");
         for (int i = 0; i < matriz.length; i++) {
-            for (int j = 0; j < matriz.length; j++) {
+            for (int j = 0; j < matriz[i].length; j++) {
+                System.out.println("Añade el número de la fila " + i + " y de la columna " + j);
                 matriz[i][j] = sc.nextInt();
             }
         }
@@ -75,7 +76,23 @@ public class Main {
         System.out.println(suma);
     }
 
-    public static void mediaValores(){
+    public static void sumaDiagonalInversa(){
+        System.out.println("Suma de la diagonal inversa");
+        int suma = 0;
+        for (int i = 0, j = 3; j >= 0; i++, j--) {
+                suma = suma + matriz[i][j];
+        }
+        System.out.println(suma);
+    }
 
+    public static void mediaValores(){
+        double suma = 0;
+        for (int i = 0; i < matriz.length; i++) {
+            for (int j = 0; j < matriz[i].length; j++) {
+                suma = suma + matriz[i][j];
+            }
+        }
+        double media = suma / (matriz.length*matriz.length);
+        System.out.println(media);
     }
 }
