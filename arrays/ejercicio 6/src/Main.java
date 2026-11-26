@@ -31,7 +31,7 @@ public class Main {
 
         int aux;
         int aux2;
-        for (int i = 0; i < unidades.length; i++) {
+        for (int i = 0; i < unidades.length - 1; i++) {
             for (int j = i + 1; j < unidades.length; j++) {
                 if (unidades[i] > unidades[j]) {
                     aux2 = codigo[j];
