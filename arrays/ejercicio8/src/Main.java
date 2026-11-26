@@ -3,7 +3,6 @@
 // asignatura. El programa debe calcular la media de cada alumno, de cada asignatura y la nota mas alta
 // y la nota más baja de todas.
 
-import java.lang.reflect.Array;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
@@ -68,7 +67,7 @@ public class Main {
         try {
             mediaNotas(notas);
             mediaAsignatura(notas);
-            notaAltaBaja();
+            notaAltaBaja(notas);
         } catch (Exception e) {
             System.out.println("Ha ocurrido un error");
         }
@@ -98,8 +97,20 @@ public class Main {
         }
     }
 
-    public static void notaAltaBaja(){
-
+    public static void notaAltaBaja(int[][] notas){
+        int notaMayor = 0;
+        int notaMenor = 11;
+        for (int i = 0; i < notas.length; i++) {
+            for (int j = 0; j < notas[i].length; j++) {
+                if (notas[i][j] > notaMayor){
+                    notaMayor = notas[i][j];
+                }
+                if (notas[i][j] < notaMenor) {
+                    notaMenor = notas[i][j];
+                }
+            }
+        }
+        boletin.append("La nota mayor es ").append(notaMayor).append(" y la nota menor es ").append(notaMenor);
     }
 
 
