@@ -60,7 +60,7 @@ public class Main {
 
         for (int i = 0; i < notas.length; i++) {
             for (int j = 0; j < notas[i].length; j++) {
-                System.out.println("Dime la nota del alumno " + i + " de la asignatura " + j);
+                System.out.println("Dime la nota del alumno " + ( + 1) + " de la asignatura " + (j +1));
                 notas[i][j] = sc.nextInt();
             }
         }
@@ -74,7 +74,7 @@ public class Main {
     }
 
     public static void mediaNotas(int[][] notas){
-        for (int i = 0; i < notas.length; i++) {
+        for (int i = 0; i < notas.length; i++) { // mas facil: stream average
             double suma = 0;
             double media = 0;
             for (int j = 0; j < notas[i].length; j++) {
