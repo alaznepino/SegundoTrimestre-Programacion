@@ -3,7 +3,13 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/arrays/ejercicio1/ejercicio1.iml" filepath="$PROJECT_DIR$/arrays/ejercicio1/ejercicio1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/arraylists/ejercicio1-arraylist/ejercicio1-arraylist.iml" filepath="$PROJECT_DIR$/arraylists/ejercicio1-arraylist/ejercicio1-arraylist.iml" />
       <module fileurl="file://$PROJECT_DIR$/arrays/ejercicio2/ejercicio2.iml" filepath="$PROJECT_DIR$/arrays/ejercicio2/ejercicio2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/arrays/ejercicio3/ejercicio3.iml" filepath="$PROJECT_DIR$/arrays/ejercicio3/ejercicio3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/arrays/ejercicio4/ejercicio4.iml" filepath="$PROJECT_DIR$/arrays/ejercicio4/ejercicio4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/arrays/ejercicio5/ejercicio5.iml" filepath="$PROJECT_DIR$/arrays/ejercicio5/ejercicio5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/arrays/ejercicio6/ejercicio6.iml" filepath="$PROJECT_DIR$/arrays/ejercicio6/ejercicio6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/arrays/ejercicio7/ejercicio7.iml" filepath="$PROJECT_DIR$/arrays/ejercicio7/ejercicio7.iml" />
       <module fileurl="file://$PROJECT_DIR$/arrays/ejercicio8/ejercicio8.iml" filepath="$PROJECT_DIR$/arrays/ejercicio8/ejercicio8.iml" />
       <module fileurl="file://$PROJECT_DIR$/arrays/ejercicio9/ejercicio9.iml" filepath="$PROJECT_DIR$/arrays/ejercicio9/ejercicio9.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/segundo trimestre.iml" filepath="$PROJECT_DIR$/.idea/segundo trimestre.iml" />
