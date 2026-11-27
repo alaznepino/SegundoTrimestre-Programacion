@@ -5,6 +5,13 @@
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/arrays/ejercicio 8/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/arrays/ejercicio 9/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/arrays/ejercicio1/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/arrays/ejercicio2/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/arrays/ejercicio3/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/arrays/ejercicio4/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/arrays/ejercicio5/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/arrays/ejercicio6/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/arrays/ejercicio7/src" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
